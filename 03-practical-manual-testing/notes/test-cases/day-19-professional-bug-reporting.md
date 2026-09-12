@@ -351,6 +351,69 @@ While testing, I did the following:
 
 **My task:** write the full bug report myself (Bug ID, Test ID, Title, Environment, Precondition, Steps to Reproduce, Test Data, Expected Result, Actual Result, Severity, Priority, Status) using this scenario, without copying the Login example above. The point is to actually practice writing one from scratch.
 
+Here:
+
+# Bug Report — Checkout Allows Missing First Name
+
+## Bug ID
+
+BUG_CHECKOUT_001
+
+## Test ID
+
+TC_CHECKOUT_001
+
+## Title
+
+Checkout allows users to continue without entering the required First Name
+
+## Environment
+
+Sauce Demo — Web Application / Checkout Page
+
+## Precondition
+
+User is logged in and has at least one product in the cart.
+
+## Steps to Reproduce
+
+1. Log in to the application.
+2. Add a product to the cart.
+3. Open the cart.
+4. Click Checkout.
+5. Leave the First Name field empty.
+6. Enter a Last Name.
+7. Enter a Postal Code.
+8. Click Continue.
+
+## Test Data
+
+Username: alkesh
+Password: xyz
+
+## Expected Result
+
+The user should not be allowed to continue checkout when the required First Name field is empty. A validation message should be displayed.
+
+## Actual Result
+
+The application allowed the user to continue checkout even though the required First Name field was empty.
+
+## Severity
+
+High
+
+## Priority
+
+High
+
+## Test Result
+
+FAIL
+
+## Bug Status
+
+New
 ---
 
 ## Day 19 Key Takeaways
@@ -400,15 +463,10 @@ Topics covered:
 - Bug Reporting Workflow
 - Practical Bug Report Exercise
 
-Day 19 gets marked DONE once the practical exercise is actually finished.
 
 ---
 
-### How We'll Do Day 19
 
-Don't just save the document and call it done yet. **Do the exercise at the bottom yourself.**
-
-Write the bug report for the checkout scenario and send it over. I'll review it like a QA lead reviewing your bug report, flag anything that needs fixing, and then we'll officially mark **Day 19 DONE**.
 
 ---
 
