@@ -404,11 +404,7 @@ Day 19 gets marked DONE once the practical exercise is actually finished.
 
 ---
 
-### How We'll Do Day 19
 
-Don't just save the document and call it done yet. **Do the exercise at the bottom yourself.**
-
-Write the bug report for the checkout scenario and send it over. I'll review it like a QA lead reviewing your bug report, flag anything that needs fixing, and then we'll officially mark **Day 19 DONE**.
 
 ---
 
