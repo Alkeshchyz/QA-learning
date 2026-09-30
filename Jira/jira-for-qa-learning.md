@@ -1,4 +1,4 @@
-# Jira for QA — Practical Learning Documentation
+# Jira for QA — Practical Learning 
 
 > **Learning Phase:** Jira for Software Testing / QA  
 > **Project Used:** Software Development Practice  
@@ -1358,23 +1358,3 @@ Search with JQL
 
 Jira is now understood as a **software development and QA collaboration tool**, not simply a bug-reporting application.
 
----
-
-## Repository Suggestion
-
-A suitable location in the QA learning repository is:
-
-```text
-03-practical-manual-testing/
-└── jira/
-    ├── README.md
-    └── jira-for-qa-learning.md
-```
-
-Or, if keeping all daily documentation together:
-
-```text
-03-practical-manual-testing/
-└── notes/
-    └── jira-for-qa-learning.md
-```
